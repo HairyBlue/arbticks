@@ -2,8 +2,8 @@
 A simple crypto arbitrage monitor that fetches market data from exchanges and calculates potential spreads.
 
 ## ( ´ ∀ ` )ﾉ Purpose on Building
-( ﾟヮﾟ) This repo serve as my code challenge on crypto exchange market data.
-(＠_＠;) This serve as a tool for finding best oppurtunity to trading using different different.
+( ﾟヮﾟ) This repo serve as my code challenge on crypto exchange market data.  
+(＠_＠;) This serve as a tool for finding best oppurtunity to trading using different different.  
 (￣▽￣*)ゞ ⚠️ Notice: This project is built as a learning tool without deep knowledge of crypto trading strategies or advanced math. Use it for educational purposes only.
 
 ## (⌐■_■) Tech Stack Used and Libraries
