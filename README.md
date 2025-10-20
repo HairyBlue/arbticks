@@ -20,7 +20,7 @@ A simple crypto arbitrage monitor that fetches market data from exchanges and ca
 | ----------- | ----------- |
 | Backend     | Python, Fastify, CCTX, Asyncio, Websocket, Discord.py |
 | Frontend    | React/Nextjs, Tailwind,  VISX or APEX or CHARTjs chart |
-| LLM and related tools        | Gemini, MVC/N8N |
+| LLM and related tools        | Gemini, MCP/N8N |
 | Others      | git, bash, vscode, postman, bruno, pytest, AWS/VPS, redis |
 
 
