@@ -27,6 +27,8 @@ A simple crypto arbitrage monitor that fetches market data from exchanges and ca
 ## (∩^o^)⊃━☆ Roadmap
 | Status   |  maps  |
 | ----------- | ----------- |
+| [ ]      | Learn AWS and register an free tier account |
+| [ ]      | Setup IAM roles and Billing Alerts |
 | [ ]      | Initialize project structure |
 | [ ]      | Fetch live market data from exchanges |
 | [ ]      | Implement real-time updates if available (WebSocket or polling) |
