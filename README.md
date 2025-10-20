@@ -27,8 +27,6 @@ A simple crypto arbitrage monitor that fetches market data from exchanges and ca
 ## (∩^o^)⊃━☆ Roadmap
 | Status   |  maps  |
 | ----------- | ----------- |
-| [ ]      | Learn AWS and register an free tier account |
-| [ ]      | Setup IAM roles and Billing Alerts |
 | [ ]      | Initialize project structure |
 | [ ]      | Fetch live market data from exchanges |
 | [ ]      | Implement real-time updates if available (WebSocket or polling) |
@@ -37,5 +35,7 @@ A simple crypto arbitrage monitor that fetches market data from exchanges and ca
 | [ ]      | Add triangular arbitrage calculation and data processing |
 | [ ]      | Add funding arbitrage calculation and data processing |
 | [ ]      | Build simple React UI for displaying spreads |
-| [ ]      | Deploy to AWS or just a local virtual machine if no money |
 | [ ]      | Integrate LLM and MVC based on cache data as knowledge based to used |
+| [ ]      | Learn AWS and register a free tier account :if: I have money |
+| [ ]      | Buy a domain :if: I have money if aws |
+| [ ]      | If have money: Deploy to AWS :else: just a local virtual machine/free services to deploy the service |
