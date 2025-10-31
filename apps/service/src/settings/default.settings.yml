@@ -1,0 +1,10 @@
+settings:
+  names: 
+    default: "default"
+
+  exchange_tracker:
+    age_out: 
+      default: 180000 # 3 minutes
+
+
+
