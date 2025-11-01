@@ -4,7 +4,7 @@ settings:
 
   exchange_tracker:
     age_out: 
-      default: 180000 # 3 minutes
+      aged_cache: 180000 # 3 minutes after
 
 
 

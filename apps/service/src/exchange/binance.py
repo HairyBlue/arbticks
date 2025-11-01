@@ -1,10 +1,16 @@
 import sys
 import os
-import ccxt.pro as ccxt
-import asyncio
-
-from arbticks_utils import supported_pairs
+from typing import Type, Callable
+from exchange_manager import ExchangeManager
+from tracker import ExchangeTracker
 # need to use utils
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-location = "binance"
+exhange_name = "binance"
+ccxt_config = {}
+
+async def register(ex_tracker: Type[ExchangeTracker], ccxt_exchage: Callable):
+   ex_man = ExchangeManager(ex_name=exhange_name, ccxt=ccxt_exchage, ccxt_config=ccxt_config, ex_tracker=ex_tracker)
+   await ex_man.start()
+
+__all__ = ("register")

@@ -17,7 +17,7 @@ class Config():
    def _merge(self, s1: Dict, s2: Dict) -> None:
       self._config = pydash.merge(s1, s2)
 
-   def load(self) -> None:
+   def load(self) -> Config:
       default_settings = os.path.join(BASE_DIR, "settings", "default.settings.yml")
       other_settings = os.path.join(BASE_DIR, "settings", f"{self._runs_on}.settings.yml")
 
@@ -28,7 +28,7 @@ class Config():
          setting_2 = yaml.safe_load(file2)
 
       self._merge(setting_1, setting_2)
-
+      return self
       
    def get_config(self) -> Dict:
       return self._config

@@ -1,4 +1,3 @@
-__all__ = ("TypeTickerInfo",  "TypeTicker", "TypeTickerMap")
 from typing import TypedDict, Optional, Dict, Literal
 
 class TypeTickerInfo(TypedDict, total=False):
@@ -53,3 +52,5 @@ class TypeTicker(TypedDict):
 
 
 TypeTickerMap = Dict[str, TypeTicker]  # {"ETH/USDC": Ticker, ...}
+
+__all__ = ["TypeTickerInfo",  "TypeTicker", "TypeTickerMap"]

@@ -1,3 +1,5 @@
+from enum import Enum
+
 name = "arbticks_utils"
 
 supported_pairs = (
@@ -9,7 +11,7 @@ supported_pairs = (
 
       # High Liquidity
       "SOL/USDT",
-      "BNB/USDT",
+      # "BNB/USDT",
       # "DOGE/USDT",
       "BTC/USDC",
       "ETH/USDC",
@@ -17,8 +19,9 @@ supported_pairs = (
       # "SOL/USD",
       # "BNB/USD",
       # "DOGE/USD",
-      "SOL/BTC",
-      "BNB/BTC"
+      # "SOL/BTC",
+      # "BNB/BTC"
 )
 
 
+__all__ = ["supported_pairs"]

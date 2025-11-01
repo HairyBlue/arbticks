@@ -1,5 +1,3 @@
-__all__ = ("TypeTickerSink")
-
 from typing import TypedDict, Dict
 
 class TypeTickerSinkValue(TypedDict): 
@@ -10,3 +8,5 @@ class TypeTickerSinkValue(TypedDict):
    last_update: int
 
 TypeTickerSink = Dict[str, TypeTickerSinkValue]
+
+__all__ = ["TypeTickerSink", "TypeTickerSinkValue"]

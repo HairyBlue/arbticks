@@ -7,11 +7,8 @@ from tracker import ExchangeTracker
 # need to use utils
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-exhange_name = "kraken"
-ccxt_config = {
-   'enableRateLimit': True,
-   'rateLimit': 3100, # 3.1 seconds between requests
-}
+exhange_name = "bingx"
+ccxt_config = {}
 
 async def register(ex_tracker: Type[ExchangeTracker], ccxt_exchage: Callable):
    ex_man = ExchangeManager(ex_name=exhange_name, ccxt=ccxt_exchage, ccxt_config=ccxt_config, ex_tracker=ex_tracker)
