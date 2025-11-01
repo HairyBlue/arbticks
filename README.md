@@ -9,27 +9,18 @@ A simple crypto arbitrage monitor that fetches market data from exchanges and ca
 ## (⌐■_■) Tech Stack Used and Libraries
 | Type   |  Tech Stack Used and Libraries  |
 | ----------- | ----------- |
-| Backend     | Python, Fastify, CCTX, Asyncio, Websocket, Discord.py |
+| Backend     | Python, Quart(async for Flask), CCXT, Asyncio, Websocket, Discord.py |
 | Frontend    | React/Nextjs, Tailwind,  VISX or APEX or CHARTjs chart |
 | LLM and related tools        | Gemini, MVC/N8N |
 | Others      | git, bash, vscode, postman, bruno, pytest, AWS/VPS |
 
 
-## (⌐■_■) Tech Stack Used and Libraries
-| Type   |  Tech Stack Used and Libraries  |
-| ----------- | ----------- |
-| Backend     | Python, Fastify, CCTX, Asyncio, Websocket, Discord.py |
-| Frontend    | React/Nextjs, Tailwind,  VISX or APEX or CHARTjs chart |
-| LLM and related tools        | Gemini, MCP/N8N |
-| Others      | git, bash, vscode, postman, bruno, pytest, AWS/VPS, redis |
-
-
 ## (∩^o^)⊃━☆ Roadmap
 | Status   |  maps  |
 | ----------- | ----------- |
-| [ ]      | Initialize project structure |
-| [ ]      | Fetch live market data from exchanges |
-| [ ]      | Implement real-time updates if available (WebSocket or polling) |
+| [X]      | Initialize project structure |
+| [X]      | Fetch market/ticker data from exchanges |
+| [X]      | Implement real-time updates if available (WebSocket or polling) |
 | [ ]      | Calculate cross-exchange spreads and Create Test |
 | [ ]      | Add cross-exchange arbitrage calculation and data processing |
 | [ ]      | Add triangular arbitrage calculation and data processing |
